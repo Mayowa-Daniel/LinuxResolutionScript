@@ -2,16 +2,16 @@
 
 size()
 {
-  read -p "HORZO?
+  read -p "Horizontal Dimension?
 " HORZO
 
-  read -p "VERT?
+  read -p "Vertical Dimesion?
 " VERT
 
   
  echo "$HORZO x $VERT" 
 
- read -p "Correct? [Y/N]?
+ read -p "Is this Correct? [Y/N]?
 " ANS
 
  
